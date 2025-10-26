@@ -75,8 +75,10 @@
 }
 
 @theme inline {
-  --font-sans: "PP Neue Montreal", system-ui, sans-serif;
-  --font-mono: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* Color System - Black/White Nordic + Industrial Orange Accent */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
